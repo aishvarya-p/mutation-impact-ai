@@ -76,7 +76,21 @@ In clinical genetics, minimizing **False Negatives** (misclassifying a pathogeni
 
 ---
 
-## 4. Project Structure
+## 4. Application Screenshots
+
+| Scientific Dashboard | Variant Prediction Console |
+| :---: | :---: |
+| ![Dashboard](docs/screenshots/dashboard_view.png) | ![Prediction Console](docs/screenshots/predict_view.png) |
+| *Executive metrics, 1-click mutation testers, model matrix* | *Real-time inference, probability gauge, biological features* |
+
+| Model Benchmark Evaluation | Dataset Provenance & Distribution |
+| :---: | :---: |
+| ![Model Performance](docs/screenshots/performance_view.png) | ![Dataset Info](docs/screenshots/dataset_view.png) |
+| *5-model comparison, ROC curves, feature importances* | *ClinVar GRCh38 statistics, class balance, top genes* |
+
+---
+
+## 5. Project Structure
 
 ```text
 Mutation Projec/
