@@ -1,0 +1,17 @@
+{
+  "dataset_name": "NCBI ClinVar Variant Summary GRCh38 Extract",
+  "source_url": "https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/variant_summary.txt.gz",
+  "assembly": "GRCh38",
+  "download_timestamp_utc": "2026-11-24T15:26:22.743379+00:00",
+  "total_records": 20000,
+  "benign_records": 10000,
+  "pathogenic_records": 10000,
+  "target_per_class": 10000,
+  "filtering_rules": [
+    "Assembly == 'GRCh38'",
+    "Chromosome in {1..22, X, Y, MT}",
+    "Valid PositionVCF, ReferenceAlleleVCF, AlternateAlleleVCF",
+    "Unambiguous Benign or Pathogenic clinical significance",
+    "Deduplicated by genomic coordinate (chr:pos:ref>alt)"
+  ]
+}
